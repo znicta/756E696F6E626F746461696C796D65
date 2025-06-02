@@ -1,12 +1,7 @@
-name: Union Daily Bot
+name: Union Task Bot
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/union-task.yml
 
 jobs:
   start-bot:
