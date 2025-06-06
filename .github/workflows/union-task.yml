@@ -1,7 +1,10 @@
-name: Union Task Bot
+name: Union Task
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/union-task.yml
 
 jobs:
   start-bot:
