@@ -1,4 +1,4 @@
-name: Union Task
+name: Union Task Bot
 
 on:
   workflow_dispatch:
